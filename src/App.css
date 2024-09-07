@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  background-color: #097179;
+}
+
+.container {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.sub-container {
+  width: 440px;
+  height: 220px;
+  background-color: #1e818d ;
+  border-color: #063339;
+  border-radius: 2rem;
+}
+
+.row-first {
+  
+  margin-top: 2rem;
+  gap: 0.4rem;
+  display: flex;
+  align-items: center;
+  padding: 1px 2px;
+}
+
+.pass{
+  height: 37px;
+  width: 70%;
+  margin-left: 1rem;
+  padding: 4px 7px;
+  font-weight: 600;
+  border-radius: 5px;
+  border-color: rgb(88, 88, 228);
+  background-color: #fff;
+  color: #000;
+}
+
+.copy{
+  background-color: blue;
+  color: #fff;
+}
+
+.row-last{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 0.5rem;  
+}
